@@ -519,10 +519,16 @@
 .prefooter {
     width: 100%;
     height: max-content;
-    background-color: #3a3a3a;
+    background-color: #303030;
     display: flex;
     color: #c7c7c7;
     justify-content: space-between;
+    position: relative;
+}
+
+.prefooter .background_grid {
+    position: absolute;
+    opacity: 5%;
 }
 
 .prefooter .payment_method {
